@@ -15,7 +15,7 @@ default: 1
 ---- 02 COLORS
 -Primary: #e67e22;
 -Tints: #fdf2e9;
--shades:
+-shades: #cf711f;
 -Accents:
 -Grey: 
 #555;
@@ -153,4 +153,9 @@ btn:visited {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
