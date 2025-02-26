@@ -84,6 +84,7 @@ body {
 btn:visited {
   display: inline-block;
   font-size: 2rem;
+  font-weight: 600;
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
