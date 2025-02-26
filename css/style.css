@@ -14,7 +14,7 @@ default: 1
 
 ---- 02 COLORS
 -Primary: #e67e22;
--Tints:
+-Tints: #fdf2e9;
 -shades:
 -Accents:
 -Grey: 
@@ -51,11 +51,17 @@ body {
   color: #555;
 }
 
+.section-hero {
+  background-color: #fdf2e9;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6.4rem;
 }
 
 .heading-primary {
