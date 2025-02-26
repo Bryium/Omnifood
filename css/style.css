@@ -19,6 +19,7 @@ default: 1
 -Accents:
 -Grey: 
 #555;
+#333;
 
 
 --- 03 SHADOWS
@@ -39,6 +40,10 @@ SPACING SYSTEM (px)
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
@@ -47,8 +52,17 @@ body {
 }
 
 .hero {
+  max-width: 130rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
 }
 
 .hero-img {
