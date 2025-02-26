@@ -53,6 +53,7 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
+  padding: 9.6rem 0;
 }
 
 .hero {
@@ -61,7 +62,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 6.4rem;
+  gap: 9.6rem;
 }
 
 .heading-primary {
