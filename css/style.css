@@ -110,16 +110,20 @@ btn:visited {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
 }
 .logo {
-  height: 2.4rem;
+  height: 2.2rem;
 }
 
 /* ****************************** */
 /* HERO SECTION */
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero {
