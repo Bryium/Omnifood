@@ -107,6 +107,13 @@ btn:visited {
 
 /* ****************************** */
 /* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 2.4rem;
+}
 
 /* ****************************** */
 /* HERO SECTION */
