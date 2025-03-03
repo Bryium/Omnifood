@@ -130,6 +130,7 @@ btn:visited {
   max-width: 130rem;
   margin: 0 auto;
   display: grid;
+  padding: 0 3.2rem;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
